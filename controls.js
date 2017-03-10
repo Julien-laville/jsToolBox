@@ -40,8 +40,8 @@ document.onkeydown=function(k) {
 
 
 
-document.scroll = function(e) {
-
+document.onmousewheel = function(e) {
+    camera.position.z += e.deltaY
 }
 
 
